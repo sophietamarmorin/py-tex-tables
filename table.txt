@@ -1,5 +1,0 @@
-\begin{tabular}{c|c}
-odds & evens \\
-1 & 2 \\
-3 & 4 
-\end{tabular}
