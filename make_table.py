@@ -1,4 +1,4 @@
-def make_table(nested_list, col_labels):
+def make_table(nested_list, col_labels, filename):
 
     # currently, this assumes that the rows aren't labeled
     # obviously that needs to be fixed
@@ -24,7 +24,7 @@ def make_table(nested_list, col_labels):
         row_strings.append(row_string)
     row_strings[-1] = row_strings[-1][:-3] + "\n"
 
-    f = open("table.txt", "a")
+    f = open(filename + ".txt", "a")
 
     f.write(tabular_heading)
     f.write(header_row)
